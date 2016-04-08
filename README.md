@@ -4,7 +4,9 @@ Google Search API client that monitors your Google search position for your doma
 ![Google Position Manager Screenshot](/screenshot.png?raw=true "Google Position Manager Screenshot")
 
 Status: Not sure if it still works.
+
 Support: None
+
 Security: Needs review
 
 Requires: MySQL
