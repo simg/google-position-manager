@@ -1,0 +1,91 @@
+#searchcontrol {display:none;}
+
+BODY    {background:#024978; font-family:verdana,arial,sans-serif; font-size:small;}
+TABLE    {font-family:verdana,arial,sans-serif; font-size:small;}
+FORM    {margin:0; padding:0;}
+IMG     {border:none;}
+P       {}
+
+H1      {color:#333; font-size:130%;}
+H2      {color:#333; font-size:110%;}
+H3      {color:#333; font-size:100%; margin:18px 0px 3px 0px;}
+LABEL     {font-weight:bold;}
+.validation_error     {background:#fee; border-top:3px solid red; border-bottom:3px solid red; padding:2em 5em 2em 3em;}
+
+#page   {border:1px solid #999; margin:20px auto; padding:20px; background:#fff; width:800px;}
+#header {position:relative; margin:0px 0px 20px 0px;}
+
+#register FORM  {width:280px;}
+
+#login FORM  {width:270px;}
+
+#menu      {position:absolute; right:10px; top:10px;}
+#menu UL   {list-style:none; margin:0; padding:0;}
+#menu LI   {float:left;}
+#menu A    {text-decoration:none; padding:3px 15px 3px 5px; color:#000;}
+
+#title     {margin:15px 0 0 0; background:url(images/position_manager_logo.png); height:51px; width:446px; position:relative;}
+#title #version {position:absolute; bottom:0px; right:0px;}
+#title h1  {display:none;}
+
+
+
+.searchBox     {float:left; background:#A9D2F3 url(images/grad1b.jpg) !important; padding:10px; margin:10px 0px 10px 0px; xborder:4px solid #444;}
+.searchBox FORM   {padding:10px;}
+.searchBox LABEL  {margin:4px 0 0 3px; color:#fff;}
+.searchBox .inputbox {display:block; width:240px; height:80px; margin:3px 10px 10px 0px; border:2px solid #5a5a5a;}
+.inlinebox {}
+.save      {float:right; margin:0px 20px 8px 0px;}
+
+
+.panel {background:#A9D2F3; padding:1em;}
+.buttons {padding:10px 10px 0px 10px; text-align:right;}
+#buttons INPUT {padding:5px 15px;}
+
+.content {width:600px;}
+
+.summary             {padding:0px 10px 10px 10px; margin-bottom:10px; clear:both;}
+.summary .tablewrap  {background:#A9D2F3 url(images/grad1b.jpg); padding:0px 5px 1px 5px;}
+.summary .tablewrapinner {xbackground:#fff;}
+.summary TABLE       {border-collapse:collapse; font-size:90%; margin:10px 0px; padding:4px 0 2px 0;  width:100%;}
+.summary TH          {text-align:centre; font-weight:bold; color:#fff; padding:4px 20px 4px 5px; }
+.summary TH.desc     {text-align:left;}
+.summary TBODY       {}
+.summary TD.desc     {padding-right:2em; padding-left:.75em; text-align:left !important;}
+.summary TD          {padding:4px 0 4px 0; text-align:center; background:#fff;}
+.summary A           {color:#000; text-decoration:none;}                 
+
+.positions             {padding:0px 10px 10px 10px; margin-bottom:10px; clear:both;}
+.positions TABLE       {border-collapse:collapse; font-size:90%; border:1px solid #4181FC; backgound:#A9D2F3;}
+.positions TH          {text-align:left; font-weight:bold; background:#4181FC; color:#fff; padding:8px 20px 8px 5px;}
+.positions TD.posname  { padding:0 2em 0 .5em; text-align:left !important;}
+.positions TD          {padding:3px 0 3px 0; text-align:center; background:#fff;}
+.positions A           {color:#000; text-decoration:none;}
+
+.caption1              {font-weight:bold; color:#333; margin:10px 0;}
+.searchResults         {margin:15px 0px; padding:0px 10px;}
+.searchResults TABLE   {border-collapse:collapse; font-size:90%; border:1px solid #4181FC;}
+.searchResults TH      {text-align:left; font-weight:bold; background:#4181FC; color:#fff; padding:8px 20px 8px 5px;}
+.searchResults TD      {padding:3px 0 3px 0; text-align:center;}
+.searchResults TD.pos  {text-align:right;}
+.searchResults TD.url  { padding:0 2em 0 .5em; text-align:left !important;}
+.searchResults TD.url div {width:680px; overflow:hidden; text-wrap:none;}
+.searchResults TD.url div a {width:250em; display:block; text-decoration:none; color:#000;}
+.searchResults TR.yours       {background:#BBFFBB !important;}
+.searchResults TR.competitors {background:#FFAEAE !important;}
+
+
+
+
+#footer        {text-align:right; margin:6px 10px 0px 20px;}
+#footer A {text-decoration:none; font-size:90%; color:#194BB9; font-weight:bold; padding:0px 20px 3px 5px;}
+
+.clr           {clear:both;}
+.row           {clear:both;}
+.cell          {float:left;}
+
+.ui-tabs .searchResults {clear:both;}
+.ui-tabs .tabNavigation {margin:0px; padding:0px; list-style:none;}
+.ui-tabs .tabNavigation LI {float:left;}
+.ui-tabs .tabNavigation A {font-size:80%;}
+
